@@ -1,9 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   images: {
-    domains: ['media.graphassets.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'media.graphassets.com',
+        port: '', // Deixe vazio para o padrão (sem porta específica)
+        pathname: '/**', // Permite todos os caminhos
+      },
+    ],
   },
 };
 
