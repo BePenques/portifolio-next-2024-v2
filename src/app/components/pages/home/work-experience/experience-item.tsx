@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { TechBadge } from '../../tech-badge'
+import { TechBadge } from '../../../tech-badge'
 export const ExperienceItem = () => {
   return (
     <div className="grid grid-cols-[40px,1fr] gap-4 md:gap-10">

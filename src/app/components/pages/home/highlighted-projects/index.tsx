@@ -1,7 +1,7 @@
 import { HiArrowNarrowRight } from 'react-icons/hi'
-import { HorizontalDivider } from '../../divider/horizontal'
-import { Link } from '../../link'
-import { SectionTitle } from '../../section-title'
+import { HorizontalDivider } from '../../../divider/horizontal'
+import { Link } from '../../../link'
+import { SectionTitle } from '../../../section-title'
 import { ProjectCard } from './project-card'
 
 export const HighLightedProjects = () => {
