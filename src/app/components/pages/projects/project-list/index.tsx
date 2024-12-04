@@ -7,6 +7,12 @@ export const ProjectList = () => {
       <Link href="/projects/book-wise">
         <ProjectCard />
       </Link>
+      <Link href="/projects/book-wise">
+        <ProjectCard />
+      </Link>
+      <Link href="/projects/book-wise">
+        <ProjectCard />
+      </Link>
     </section>
   )
 }
